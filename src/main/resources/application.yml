@@ -1,0 +1,9 @@
+mybatis:
+  type-aliases-package: com.hide.backend.entity
+server:
+  port: 8080
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/MPC?characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
