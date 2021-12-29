@@ -1,4 +1,4 @@
-package com.zly.statis.utils;
+package com.zly.statis.entity;
 
 import lombok.Data;
 import lombok.experimental.Accessors;
@@ -6,6 +6,6 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors(chain = true)
 public class LoginFrom {
-    private String job_id;
+    private long job_id;
     private String password;
 }
